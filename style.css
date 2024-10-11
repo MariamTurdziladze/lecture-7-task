@@ -33,6 +33,17 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.box1pic {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    right: 20%;
+
 }
 
 .box-inner{
@@ -40,6 +51,8 @@
     flex-direction: column;
     gap: 16px;
     align-content: space-around;
+    position: relative;
+    z-index: 2;
 }
 
 .person-status {
@@ -48,6 +61,8 @@
     gap: 4px;
     align-content: space-between;
 }
+
+
 
 .box2 {
     grid-area: Jonathan;
@@ -59,6 +74,16 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.box2pic {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    right: 20%;
+
 }
 
 .box3 {
@@ -71,8 +96,17 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
+    z-index: 2;
 }
 
+.box3pic {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    right: 0%;
+
+}
 
 .box4 {
     grid-area: Jeanette;
@@ -84,6 +118,16 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.box4pic {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+
 }
 
 .box5 {
@@ -96,6 +140,16 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.box5pic {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    right: 20%;
+
 }
 
 .person {
@@ -147,6 +201,9 @@
     font-weight: 600;
     text-align: left;
     color: white;
+    position: relative;
+    z-index: 2;
+
 }
 
 .quote2 {
@@ -156,6 +213,8 @@
     text-align: left;
     color: white;
     opacity: 70%;
+    position: relative;
+    z-index: 2;
 }
 
 .img-icon-text{
